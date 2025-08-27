@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+.hind-madurai-light {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 .hind-madurai-regular {
   font-family: "Hind Madurai", sans-serif;
@@ -7,3 +12,28 @@
   font-style: normal;
 }
 
+.hind-madurai-medium {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hind-madurai-semibold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-madurai-bold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .logo{
+        flex-direction: column;
+    }
+}
