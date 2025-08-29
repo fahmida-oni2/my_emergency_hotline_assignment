@@ -43,5 +43,21 @@
 @media screen and (max-width: 576px){
     .logo{
         flex-direction: column;
+        align-items: center;
+    }
+    .nav-content {
+      margin: 0;
+    }
+    .card{
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      
+    }
+    .card-call{
+      grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+    .call{
+      width: 380px;
+      
+     
     }
 }
