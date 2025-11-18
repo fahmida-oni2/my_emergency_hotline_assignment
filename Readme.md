@@ -1,18 +1,24 @@
-1.Question: What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
-Answer: *getElementById:Selects an unique single element which returns at most one element.
-*getElementsByClassName:Selects same class elements which returns html collections
-*querySelector / querySelectorAll: querySelector selects first element and returns first element and querySelectorAll selects all elements and returns Nodelist .
+# Emergency_hotline
+A simple project using Javascript that provides a centralized, one-tap directory of crucial national hotlines. It lists essential contact numbers for services like the National Emergency Number (999), Police, Fire Service, Ambulance, Women & Child Helpline, and other government and non-government support lines, with options to easily copy or dial the numbers.
 
-2.Question:How do you create and insert a new element into the DOM?
-Answer: For creating a new element we use document.createElement("tag") and for inserting a new element we use some different types like parent.appendChild(element) for adding at the end ,parent.prepend(element) for adding at the start or parent.append(element) for adding multiple nodes/strings .
+## Technologies Used
+**HTML**
+<br>
+**CSS**
+<br>
+**Javascript**
 
-3.Question:What is Event Bubbling and how does it work?
-Answer: when an event on a child element automatically propagates upward through its parent elements in the DOM but it can be stopped anytime with event.stopPropagation() is called event bubbling.
-It follows the flow: target element → parent → body → document → window.
+## Features
+-A single location for numerous government and NGO emergency hotlines in Bangladesh
+<br>
+-Direct listings for National Emergency (999), Police, Fire Service, Ambulance, Women & Child Helpline, Anti-Corruption, and more
+<br>
+-Dedicated "Call" buttons next to each hotline number for immediate dialing
+<br>
+-A "Copy" button for each number allows users to quickly save the contact information
+<br>
+-A section to track and review previously dialed numbers
+<br>
+-Clear presentation with distinct icons and headings for each service category
 
-4.Question:What is Event Delegation in JavaScript? Why is it useful?
-Answer:Event Delegation attaches a single event listener to a parent element and using event bubbling to manage events on its child elements .
-It is useful for Better performance,handling dynamically added elements.
 
-5.Question:What is the difference between preventDefault() and stopPropagation() methods?
-Answer:preventDefault() stops default browser behavior and stopPropagation() stops event from bubbling through the DOM process.
