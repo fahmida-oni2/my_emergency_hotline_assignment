@@ -2,11 +2,9 @@
 A simple project using Javascript that provides a centralized, one-tap directory of crucial national hotlines. It lists essential contact numbers for services like the National Emergency Number (999), Police, Fire Service, Ambulance, Women & Child Helpline, and other government and non-government support lines, with options to easily copy or dial the numbers.
 
 ## Technologies Used
-**HTML**
-<br>
-**CSS**
-<br>
-**Javascript**
+- **HTML**
+- **CSS**
+- **Javascript**
 
 ## Features
 -A single location for numerous government and NGO emergency hotlines in Bangladesh
