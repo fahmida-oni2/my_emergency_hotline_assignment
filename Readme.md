@@ -21,4 +21,7 @@ A simple project using Javascript that provides a centralized, one-tap directory
 <br>
 -Clear presentation with distinct icons and headings for each service category
 
+## Live Link
+https://fahmida-oni2.github.io/my_emergency_hotline_assignment/
+
 
