@@ -22,4 +22,18 @@ A simple project using Javascript that provides a centralized, one-tap directory
 ## Live Link
 https://fahmida-oni2.github.io/my_emergency_hotline_assignment/
 
+## Installation
+
+Install my-project with npm
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/username/project.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd project
+    ```
+
 
